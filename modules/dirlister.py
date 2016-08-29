@@ -4,7 +4,7 @@ import os
 
 def run(**args):
 	print "[*] in module dirlister"
-	files = os.listdir()
+	files = os.listdir(".")
 
 	return str(files)
 
